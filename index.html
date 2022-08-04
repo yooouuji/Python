@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="르탄이 - 프로필 링크">
+    <meta property="og:description" content="어서와 코딩은 처음이지?">
+    <meta property="og:image" content="공유할 이미지">
+    <title>르탄이 - 프로필 링크</title>
+
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+
+        body{
+            background-color: #44398A;
+        }
+
+        .wrap{
+            background-color: green;
+            width: 350px;
+            margin: 30px auto 0px auto;
+
+            /*아래 4줄 짝꿍 : 내용물을 가운데로*/
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .wrap > a {
+            font-size: 14px;
+            font-weight: bold;
+            color: #44398A;
+
+            background-color: white;
+            border-radius: 8px;
+
+            box-shadow: 3px 3px 5px 0px black;
+
+            width: 300px;
+            height: 50px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            margin-bottom: 10px;
+            text-decoration: none;
+        }
+
+        .wrap > a:hover{
+            background-color: #d2d2d2;
+        }
+
+
+        .profile{
+            width : 100px;
+            height : 100px;
+
+            background-color: green;
+            border-radius: 100%;
+            border: 2px solid white;
+
+            background-image : url('icon.png');
+            background-position : center;
+            background-size : cover;
+        }
+        .main{
+            color: white;
+            font-size: 20px;
+        }
+        .sub{
+            color : white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class = "profile"></div>
+        <h1 class = "main">lemon</h1>
+        <p class = "sub">레몬... 좋아하세요?</p>
+
+        <a target="_blank" href="https://spartacodingclub.kr/">스파르타코딩클럽</a>
+        <a target="_blank" href="https://hanghae99.spartacodingclub.kr/">항해99</a>
+        <a target="_blank" href="https://chang.spartacodingclub.kr/">창업 부트캠프 창</a>
+        <a target="_blank" href="https://ddingdong.spartacodingclub.kr/">띵동코딩</a>
+    </div>
+
+
+</body>
+</html>
