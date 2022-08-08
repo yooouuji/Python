@@ -11,7 +11,7 @@
 
     <script>
         
-        function getthedate(){
+    function getthedate(){
     var mydate=new Date()
     var year=mydate.getYear()
 
@@ -29,11 +29,9 @@
     var seconds=mydate.getSeconds()
 
     var dn="오전"
-    if (hours>=12)
-    dn="오후"
-    if (hours>12){
-    hours=hours-12
-    }
+    if (hours>=12) dn="오후"
+    if (hours>12) hours=hours-12
+
 
     if (hours==0)
     hours=12
@@ -56,8 +54,7 @@
     if (document.all||document.getElementById)
     setInterval("getthedate()",1000)
     }
-        
-        </script>
+</script>
 
 
 
